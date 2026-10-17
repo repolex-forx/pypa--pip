@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/pypa/pip/commit/41ce840487b477bcddf5be3025d947760940eec5",
       "git:hexsha": "41ce840487b477bcddf5be3025d947760940eec5",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/pypa/pip/commit/ade11f6eebf16460a7bbe59d7f99b65ce352baf3",
