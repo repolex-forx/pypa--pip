@@ -1,0 +1,40 @@
+{
+  "commit_sha": "2e05cae3da2cfafa6dce58167a25b7dba4bc2a33",
+  "completed_files": [
+    "src/pip/_internal/commands/show.py",
+    "src/pip/_internal/index/package_finder.py",
+    "src/pip/_internal/req/req_uninstall.py",
+    "src/pip/_vendor/msgpack/fallback.py",
+    "src/pip/_vendor/pkg_resources/__init__.py",
+    "src/pip/_vendor/requests/adapters.py",
+    "src/pip/_vendor/rich/live.py",
+    "src/pip/_vendor/rich/text.py",
+    "src/pip/_vendor/urllib3/fields.py",
+    "src/pip/_vendor/urllib3/util/ssltransport.py",
+    "tests/functional/test_install_check.py",
+    "tests/functional/test_install_config.py",
+    "tests/functional/test_install_upgrade.py",
+    "tests/unit/test_finder.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/pypa/pip/lsp/2e05cae3da2cfafa6dce58167a25b7dba4bc2a33",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/2e05cae3da2cfafa6dce58167a25b7dba4bc2a33.nq.gz",
+    "call_sites": 31016,
+    "import_statements": 3954,
+    "call_targets_resolved": 2292,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 655,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 8300,
+    "import_symbols_denormalized": 6699,
+    "extends_class_denormalized": 653,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1801
+}
