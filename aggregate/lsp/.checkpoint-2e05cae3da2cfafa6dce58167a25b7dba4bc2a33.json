@@ -3,19 +3,27 @@
   "completed_files": [
     "noxfile.py",
     "src/pip/_internal/commands/show.py",
+    "src/pip/_internal/commands/wheel.py",
     "src/pip/_internal/index/package_finder.py",
     "src/pip/_internal/models/target_python.py",
     "src/pip/_internal/models/wheel.py",
+    "src/pip/_internal/network/xmlrpc.py",
     "src/pip/_internal/req/req_uninstall.py",
+    "src/pip/_internal/resolution/resolvelib/base.py",
     "src/pip/_vendor/msgpack/fallback.py",
     "src/pip/_vendor/packaging/_parser.py",
     "src/pip/_vendor/pkg_resources/__init__.py",
+    "src/pip/_vendor/pygments/sphinxext.py",
     "src/pip/_vendor/requests/adapters.py",
     "src/pip/_vendor/rich/_ratio.py",
     "src/pip/_vendor/rich/console.py",
     "src/pip/_vendor/rich/live.py",
+    "src/pip/_vendor/rich/progress.py",
+    "src/pip/_vendor/rich/progress_bar.py",
     "src/pip/_vendor/rich/repr.py",
+    "src/pip/_vendor/rich/table.py",
     "src/pip/_vendor/rich/text.py",
+    "src/pip/_vendor/urllib3/contrib/securetransport.py",
     "src/pip/_vendor/urllib3/fields.py",
     "src/pip/_vendor/urllib3/util/ssltransport.py",
     "tests/functional/test_install_check.py",
@@ -23,8 +31,12 @@
     "tests/functional/test_install_index.py",
     "tests/functional/test_install_upgrade.py",
     "tests/functional/test_list.py",
+    "tests/functional/test_new_resolver.py",
+    "tests/functional/test_uninstall.py",
     "tests/unit/test_finder.py",
-    "tests/unit/test_req_file.py"
+    "tests/unit/test_models_wheel.py",
+    "tests/unit/test_req_file.py",
+    "tests/unit/test_vcs.py"
   ],
   "completed_types": [],
   "stats": {
@@ -32,7 +44,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/2e05cae3da2cfafa6dce58167a25b7dba4bc2a33.nq.gz",
     "call_sites": 31016,
     "import_statements": 3954,
-    "call_targets_resolved": 3514,
+    "call_targets_resolved": 4950,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -46,5 +58,5 @@
     "extends_class_denormalized": 653,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1808
+  "elapsed_seconds": 1801
 }
