@@ -1,0 +1,38 @@
+{
+  "commit_sha": "f47b5874299848c688336ae7c8d69534013fe2c6",
+  "completed_files": [
+    "src/pip/_vendor/distlib/database.py",
+    "src/pip/_vendor/distlib/util.py",
+    "src/pip/_vendor/pygments/formatters/rtf.py",
+    "src/pip/_vendor/pygments/sphinxext.py",
+    "src/pip/_vendor/requests/models.py",
+    "src/pip/_vendor/rich/box.py",
+    "src/pip/_vendor/rich/color.py",
+    "src/pip/_vendor/rich/rule.py",
+    "src/pip/_vendor/urllib3/packages/six.py",
+    "src/pip/_vendor/urllib3/util/timeout.py",
+    "tests/conftest.py",
+    "tests/functional/test_install_extras.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/pypa/pip/lsp/f47b5874299848c688336ae7c8d69534013fe2c6",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/f47b5874299848c688336ae7c8d69534013fe2c6.nq.gz",
+    "call_sites": 33532,
+    "import_statements": 4008,
+    "call_targets_resolved": 1947,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 749,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 8278,
+    "import_symbols_denormalized": 7280,
+    "extends_class_denormalized": 746,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1809
+}
