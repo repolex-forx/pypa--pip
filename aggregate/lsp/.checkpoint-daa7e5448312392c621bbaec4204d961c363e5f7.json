@@ -1,7 +1,9 @@
 {
   "commit_sha": "daa7e5448312392c621bbaec4204d961c363e5f7",
   "completed_files": [
+    "src/pip/_internal/cli/autocompletion.py",
     "src/pip/_internal/cli/req_command.py",
+    "src/pip/_internal/operations/prepare.py",
     "src/pip/_internal/req/constructors.py",
     "src/pip/_internal/req/req_file.py",
     "src/pip/_internal/req/req_uninstall.py",
@@ -14,11 +16,20 @@
     "src/pip/_vendor/requests/cookies.py",
     "src/pip/_vendor/rich/_inspect.py",
     "src/pip/_vendor/rich/columns.py",
+    "src/pip/_vendor/rich/layout.py",
+    "src/pip/_vendor/tomli/_parser.py",
     "src/pip/_vendor/tomli_w/_writer.py",
     "src/pip/_vendor/urllib3/_collections.py",
     "src/pip/_vendor/urllib3/packages/six.py",
+    "tests/functional/test_config_settings.py",
     "tests/functional/test_list.py",
-    "tests/functional/test_lock.py"
+    "tests/functional/test_lock.py",
+    "tests/functional/test_new_resolver.py",
+    "tests/unit/metadata/test_metadata.py",
+    "tests/unit/test_exceptions.py",
+    "tests/unit/test_finder.py",
+    "tests/unit/test_req.py",
+    "tests/unit/test_utils_temp_dir.py"
   ],
   "completed_types": [],
   "stats": {
@@ -26,7 +37,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/daa7e5448312392c621bbaec4204d961c363e5f7.nq.gz",
     "call_sites": 33463,
     "import_statements": 4033,
-    "call_targets_resolved": 2484,
+    "call_targets_resolved": 3901,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -40,5 +51,5 @@
     "extends_class_denormalized": 713,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1806
 }
