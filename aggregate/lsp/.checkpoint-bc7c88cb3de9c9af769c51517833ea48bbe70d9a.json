@@ -3,14 +3,25 @@
   "completed_files": [
     "src/pip/_internal/commands/install.py",
     "src/pip/_internal/distributions/sdist.py",
+    "src/pip/_internal/metadata/base.py",
+    "src/pip/_internal/network/auth.py",
     "src/pip/_internal/vcs/subversion.py",
     "src/pip/_vendor/cachecontrol/serialize.py",
+    "src/pip/_vendor/distlib/database.py",
+    "src/pip/_vendor/packaging/_manylinux.py",
+    "src/pip/_vendor/pkg_resources/__init__.py",
+    "src/pip/_vendor/pygments/formatters/terminal256.py",
+    "src/pip/_vendor/pygments/lexers/python.py",
     "src/pip/_vendor/pygments/scanner.py",
+    "src/pip/_vendor/pyproject_hooks/_in_process/_in_process.py",
     "src/pip/_vendor/resolvelib/resolvers.py",
     "src/pip/_vendor/rich/console.py",
     "src/pip/_vendor/rich/containers.py",
     "src/pip/_vendor/rich/default_styles.py",
+    "src/pip/_vendor/rich/panel.py",
+    "src/pip/_vendor/rich/syntax.py",
     "src/pip/_vendor/typing_extensions.py",
+    "src/pip/_vendor/urllib3/contrib/pyopenssl.py",
     "src/pip/_vendor/urllib3/request.py",
     "src/pip/_vendor/urllib3/util/response.py",
     "src/pip/_vendor/urllib3/util/retry.py",
@@ -22,8 +33,10 @@
     "tests/lib/__init__.py",
     "tests/lib/certs.py",
     "tests/unit/test_direct_url_helpers.py",
+    "tests/unit/test_link.py",
     "tests/unit/test_locations.py",
     "tests/unit/test_network_download.py",
+    "tests/unit/test_network_session.py",
     "tests/unit/test_options.py",
     "tests/unit/test_utils.py"
   ],
@@ -33,7 +46,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bc7c88cb3de9c9af769c51517833ea48bbe70d9a.nq.gz",
     "call_sites": 33533,
     "import_statements": 4007,
-    "call_targets_resolved": 2962,
+    "call_targets_resolved": 4883,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -47,5 +60,5 @@
     "extends_class_denormalized": 746,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1809
+  "elapsed_seconds": 1811
 }
