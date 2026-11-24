@@ -1,0 +1,28 @@
+[2026-11-24T23:27:50Z] === ENRICH ITERATION 2 START | repo=pypa/pip sha=f47b5874 ===
+[2026-11-24T23:27:50Z] [iter=2] PHASE START: enrich repo=pypa/pip sha=f47b5874 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f47b5874-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f47b5874299848c688336ae7c8d69534013fe2c6.nq.gz
+[2026-11-24T23:27:50Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T23:29:18Z] [iter=2] AST store loaded triples=6896569 load_secs=87 mem_mb=912 MB
+[2026-11-24T23:29:18Z] [iter=2] Step 2: Finding LSP targets mem_mb=912 MB
+[2026-11-24T23:29:27Z] [iter=2] LSP targets found call_sites=33532 imports=4008 extends=749 implements=0 secs=9
+[2026-11-24T23:29:28Z] [iter=2] Loaded checkpoint partial graph triples=41003
+[2026-11-24T23:29:28Z] [iter=2] Primed enclosing-def cache from persisted triples entries=295
+[2026-11-24T23:29:35Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=912 MB
+[2026-11-24T23:30:01Z] [iter=2] Position index built positions=479893 nodes_with_types=624706 secs=26 mem_mb=1345 MB
+[2026-11-24T23:30:01Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1345 MB already_completed_types=[] already_completed_files=12
+[2026-11-24T23:30:01Z] [iter=2] Resolving target type target_type=call_site count=33532
+[2026-11-24T23:30:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=0 resolved=0 errors=0 current=src/pip/_vendor/distlib/wheel.py
+[2026-11-24T23:32:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=1 resolved=301 errors=0 current=src/pip/_internal/cli/autocompletion.py
+[2026-11-24T23:34:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=3 resolved=580 errors=0 current=src/pip/_vendor/msgpack/fallback.py
+[2026-11-24T23:38:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=4 resolved=830 errors=0 current=tests/functional/test_new_resolver.py
+[2026-11-24T23:47:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=5 resolved=1322 errors=0 current=src/pip/_vendor/distro/distro.py
+[2026-11-24T23:49:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=6 resolved=1505 errors=0 current=src/pip/_vendor/urllib3/contrib/securetransport.py
+[2026-11-24T23:51:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=7 resolved=1600 errors=0 current=src/pip/_internal/commands/wheel.py
+[2026-11-24T23:52:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.3 files_done=8 resolved=1669 errors=0 current=src/pip/_internal/cli/cmdoptions.py
+[2026-11-24T23:52:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.9 files_done=9 resolved=1794 errors=0 current=src/pip/_vendor/rich/themes.py
+[2026-11-24T23:53:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=11 resolved=1844 errors=0 current=src/pip/_vendor/packaging/_elffile.py
+[2026-11-24T23:55:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=27.7 files_done=13 resolved=2009 errors=0 current=tests/unit/metadata/test_metadata.py
+[2026-11-24T23:56:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.1 files_done=15 resolved=2118 errors=0 current=src/pip/_vendor/cachecontrol/controller.py
+[2026-11-24T23:57:53Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=27 new_files_this_iter=15 mem_mb=1365 MB
+[2026-11-24T23:57:53Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f47b5874299848c688336ae7c8d69534013fe2c6.nq.gz triples=61679
+[2026-11-24T23:57:54Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-11-24T23:57:54Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=1803 elapsed_min=30.1 files_completed=27
