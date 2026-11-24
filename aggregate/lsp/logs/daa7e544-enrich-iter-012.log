@@ -1,0 +1,45 @@
+[2026-11-24T08:24:47Z] === ENRICH ITERATION 12 START | repo=pypa/pip sha=daa7e544 ===
+[2026-11-24T08:24:47Z] [iter=12] PHASE START: enrich repo=pypa/pip sha=daa7e544 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/daa7e544-enrich-iter-012.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/daa7e5448312392c621bbaec4204d961c363e5f7.nq.gz
+[2026-11-24T08:24:47Z] [iter=12] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T08:25:49Z] [iter=12] AST store loaded triples=6871282 load_secs=61 mem_mb=896 MB
+[2026-11-24T08:25:49Z] [iter=12] Step 2: Finding LSP targets mem_mb=896 MB
+[2026-11-24T08:25:58Z] [iter=12] LSP targets found call_sites=33463 imports=4033 extends=716 implements=0 secs=9
+[2026-11-24T08:26:06Z] [iter=12] Loaded checkpoint partial graph triples=218797
+[2026-11-24T08:26:06Z] [iter=12] Primed enclosing-def cache from persisted triples entries=3238
+[2026-11-24T08:26:14Z] [iter=12] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=896 MB
+[2026-11-24T08:26:42Z] [iter=12] Position index built positions=477780 nodes_with_types=622110 secs=28 mem_mb=1665 MB
+[2026-11-24T08:26:42Z] [iter=12] Step 3: Starting LSP resolution mem_mb=1665 MB already_completed_types=[] already_completed_files=208
+[2026-11-24T08:26:42Z] [iter=12] Resolving target type target_type=call_site count=33463
+[2026-11-24T08:26:43Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=src/pip/_vendor/urllib3/util/url.py
+[2026-11-24T08:28:06Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=2 resolved=118 errors=0 current=tests/functional/test_install_extras.py
+[2026-11-24T08:28:46Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=3 resolved=156 errors=0 current=src/pip/_vendor/distlib/manifest.py
+[2026-11-24T08:29:39Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=4 resolved=250 errors=0 current=src/pip/_vendor/rich/markup.py
+[2026-11-24T08:30:26Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=5 resolved=314 errors=0 current=src/pip/_internal/cli/main_parser.py
+[2026-11-24T08:32:29Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=7.7 files_done=7 resolved=450 errors=0 current=tests/lib/venv.py
+[2026-11-24T08:33:16Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=9 resolved=555 errors=0 current=tests/unit/test_direct_url_helpers.py
+[2026-11-24T08:34:11Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=12 resolved=632 errors=0 current=tests/unit/resolution_resolvelib/test_provider.py
+[2026-11-24T08:35:04Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=15 resolved=740 errors=0 current=tools/update-rtd-redirects.py
+[2026-11-24T08:35:37Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=17 resolved=821 errors=0 current=src/pip/_internal/index/collector.py
+[2026-11-24T08:36:40Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=18 resolved=920 errors=0 current=src/pip/_vendor/urllib3/util/connection.py
+[2026-11-24T08:41:19Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=23 resolved=1138 errors=0 current=src/pip/_vendor/rich/palette.py
+[2026-11-24T08:41:59Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=17.2 files_done=26 resolved=1209 errors=0 current=src/pip/_vendor/pygments/lexers/__init__.py
+[2026-11-24T08:43:20Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=27 resolved=1291 errors=0 current=tests/unit/test_vcs_mercurial.py
+[2026-11-24T08:44:07Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=29 resolved=1355 errors=0 current=src/pip/_internal/utils/logging.py
+[2026-11-24T08:44:42Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=19.9 files_done=30 resolved=1404 errors=0 current=tests/unit/test_appdirs.py
+[2026-11-24T08:45:13Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=32 resolved=1436 errors=0 current=src/pip/_internal/locations/__init__.py
+[2026-11-24T08:45:59Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=33 resolved=1509 errors=0 current=src/pip/_internal/commands/wheel.py
+[2026-11-24T08:47:02Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=34 resolved=1577 errors=0 current=src/pip/_vendor/packaging/version.py
+[2026-11-24T08:47:54Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=36 resolved=1709 errors=0 current=src/pip/_internal/utils/temp_dir.py
+[2026-11-24T08:48:25Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=38 resolved=1776 errors=0 current=src/pip/_internal/metadata/pkg_resources.py
+[2026-11-24T08:49:18Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=39 resolved=1848 errors=0 current=tests/functional/test_install_check.py
+[2026-11-24T08:49:53Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=41 resolved=1920 errors=0 current=tests/unit/test_direct_url.py
+[2026-11-24T08:50:45Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=45 resolved=2044 errors=0 current=tests/functional/test_pep660.py
+[2026-11-24T08:51:30Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=26.7 files_done=46 resolved=2093 errors=0 current=src/pip/_internal/operations/check.py
+[2026-11-24T08:52:11Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=27.4 files_done=48 resolved=2153 errors=0 current=src/pip/_vendor/rich/_wrap.py
+[2026-11-24T08:52:41Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=27.9 files_done=49 resolved=2179 errors=0 current=src/pip/_vendor/truststore/__init__.py
+[2026-11-24T08:53:14Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=28.5 files_done=52 resolved=2253 errors=0 current=src/pip/_internal/req/req_set.py
+[2026-11-24T08:54:22Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=54 resolved=2359 errors=0 current=src/pip/_internal/commands/help.py
+[2026-11-24T08:54:48Z] [iter=12] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=263 new_files_this_iter=55 mem_mb=1685 MB
+[2026-11-24T08:54:48Z] [iter=12] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/daa7e5448312392c621bbaec4204d961c363e5f7.nq.gz triples=240573
+[2026-11-24T08:54:50Z] [iter=12] Checkpoint written, exiting with code 7
+[2026-11-24T08:54:50Z] [iter=12] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=263
