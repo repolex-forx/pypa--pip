@@ -1,0 +1,34 @@
+[2026-11-25T12:29:23Z] === ENRICH ITERATION 8 START | repo=pypa/pip sha=05293b6b ===
+[2026-11-25T12:29:23Z] [iter=8] PHASE START: enrich repo=pypa/pip sha=05293b6b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/05293b6b-enrich-iter-008.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/05293b6b55eca86490b7c2944bcc558a56064f0d.nq.gz
+[2026-11-25T12:29:23Z] [iter=8] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-25T12:30:25Z] [iter=8] AST store loaded triples=6740133 load_secs=61 mem_mb=890 MB
+[2026-11-25T12:30:25Z] [iter=8] Step 2: Finding LSP targets mem_mb=890 MB
+[2026-11-25T12:30:35Z] [iter=8] LSP targets found call_sites=33333 imports=3988 extends=745 implements=0 secs=10
+[2026-11-25T12:30:40Z] [iter=8] Loaded checkpoint partial graph triples=127909
+[2026-11-25T12:30:40Z] [iter=8] Primed enclosing-def cache from persisted triples entries=1764
+[2026-11-25T12:30:48Z] [iter=8] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=890 MB
+[2026-11-25T12:31:17Z] [iter=8] Position index built positions=468640 nodes_with_types=609828 secs=29 mem_mb=1462 MB
+[2026-11-25T12:31:17Z] [iter=8] Step 3: Starting LSP resolution mem_mb=1462 MB already_completed_types=[] already_completed_files=76
+[2026-11-25T12:31:17Z] [iter=8] Resolving target type target_type=call_site count=33333
+[2026-11-25T12:31:18Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=tests/lib/__init__.py
+[2026-11-25T12:32:14Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=1 resolved=144 errors=0 current=src/pip/_vendor/rich/traceback.py
+[2026-11-25T12:34:31Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=2 resolved=283 errors=0 current=tests/functional/test_pep660.py
+[2026-11-25T12:35:14Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=3 resolved=332 errors=0 current=src/pip/_internal/metadata/pkg_resources.py
+[2026-11-25T12:36:05Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=4 resolved=404 errors=0 current=tests/functional/test_install_config.py
+[2026-11-25T12:37:23Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=5 resolved=498 errors=0 current=src/pip/_vendor/requests/__init__.py
+[2026-11-25T12:39:00Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=9.6 files_done=7 resolved=637 errors=0 current=src/pip/_vendor/rich/default_styles.py
+[2026-11-25T12:43:00Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=8 resolved=799 errors=0 current=src/pip/_vendor/urllib3/contrib/ntlmpool.py
+[2026-11-25T12:46:23Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=10 resolved=1013 errors=0 current=src/pip/_vendor/urllib3/util/retry.py
+[2026-11-25T12:46:59Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=17.6 files_done=11 resolved=1089 errors=0 current=src/pip/_vendor/pygments/lexers/__init__.py
+[2026-11-25T12:48:18Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=18.9 files_done=12 resolved=1172 errors=0 current=noxfile.py
+[2026-11-25T12:49:12Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=13 resolved=1249 errors=0 current=src/pip/_vendor/rich/progress_bar.py
+[2026-11-25T12:50:00Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=20.6 files_done=14 resolved=1295 errors=0 current=src/pip/_internal/resolution/resolvelib/candidates.py
+[2026-11-25T12:51:06Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=21.7 files_done=15 resolved=1375 errors=0 current=src/pip/_vendor/packaging/tags.py
+[2026-11-25T12:52:26Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=16 resolved=1529 errors=0 current=src/pip/_vendor/urllib3/response.py
+[2026-11-25T12:53:55Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=17 resolved=1636 errors=0 current=src/pip/_internal/cli/base_command.py
+[2026-11-25T12:54:33Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=18 resolved=1695 errors=0 current=tests/unit/metadata/test_metadata_pkg_resources.py
+[2026-11-25T12:57:24Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=20 resolved=1889 errors=0 current=src/pip/_vendor/rich/segment.py
+[2026-11-25T12:59:29Z] [iter=8] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=97 new_files_this_iter=21 mem_mb=1480 MB
+[2026-11-25T12:59:29Z] [iter=8] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/05293b6b55eca86490b7c2944bcc558a56064f0d.nq.gz triples=146063
+[2026-11-25T12:59:30Z] [iter=8] Checkpoint written, exiting with code 7
+[2026-11-25T12:59:30Z] [iter=8] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=97
