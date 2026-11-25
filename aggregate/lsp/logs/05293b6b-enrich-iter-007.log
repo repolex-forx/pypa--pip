@@ -1,0 +1,30 @@
+[2026-11-25T11:56:19Z] === ENRICH ITERATION 7 START | repo=pypa/pip sha=05293b6b ===
+[2026-11-25T11:56:19Z] [iter=7] PHASE START: enrich repo=pypa/pip sha=05293b6b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/05293b6b-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/05293b6b55eca86490b7c2944bcc558a56064f0d.nq.gz
+[2026-11-25T11:56:19Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T11:57:53Z] [iter=7] AST store loaded triples=6740133 load_secs=92 mem_mb=898 MB
+[2026-11-25T11:57:53Z] [iter=7] Step 2: Finding LSP targets mem_mb=898 MB
+[2026-11-25T11:58:05Z] [iter=7] LSP targets found call_sites=33333 imports=3988 extends=745 implements=0 secs=12
+[2026-11-25T11:58:10Z] [iter=7] Loaded checkpoint partial graph triples=110331
+[2026-11-25T11:58:10Z] [iter=7] Primed enclosing-def cache from persisted triples entries=1488
+[2026-11-25T11:58:20Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=898 MB
+[2026-11-25T11:58:56Z] [iter=7] Position index built positions=468640 nodes_with_types=609828 secs=36 mem_mb=1447 MB
+[2026-11-25T11:58:56Z] [iter=7] Step 3: Starting LSP resolution mem_mb=1447 MB already_completed_types=[] already_completed_files=61
+[2026-11-25T11:58:56Z] [iter=7] Resolving target type target_type=call_site count=33333
+[2026-11-25T11:58:57Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=0 resolved=0 errors=0 current=src/pip/_vendor/pygments/lexer.py
+[2026-11-25T11:59:32Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=1 resolved=58 errors=0 current=src/pip/_internal/vcs/git.py
+[2026-11-25T12:01:46Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=2 resolved=183 errors=0 current=tests/unit/test_operations_prepare.py
+[2026-11-25T12:05:49Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=4 resolved=374 errors=0 current=tests/unit/test_cache.py
+[2026-11-25T12:10:47Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=6 resolved=784 errors=0 current=src/pip/_vendor/distlib/resources.py
+[2026-11-25T12:11:34Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=7 resolved=866 errors=0 current=tests/functional/test_uninstall_user.py
+[2026-11-25T12:12:07Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=15.8 files_done=8 resolved=889 errors=0 current=src/pip/_vendor/urllib3/packages/six.py
+[2026-11-25T12:18:24Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=9 resolved=1186 errors=0 current=src/pip/_vendor/pygments/cmdline.py
+[2026-11-25T12:20:20Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=10 resolved=1383 errors=0 current=src/pip/_internal/utils/wheel.py
+[2026-11-25T12:20:53Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=24.6 files_done=11 resolved=1417 errors=0 current=src/pip/_internal/index/collector.py
+[2026-11-25T12:22:15Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=25.9 files_done=12 resolved=1516 errors=0 current=tests/functional/test_show.py
+[2026-11-25T12:23:39Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=27.3 files_done=13 resolved=1609 errors=0 current=src/pip/_vendor/pyproject_hooks/_in_process/_in_process.py
+[2026-11-25T12:24:46Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=14 resolved=1693 errors=0 current=src/pip/_vendor/pyproject_hooks/_impl.py
+[2026-11-25T12:25:28Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=29.2 files_done=15 resolved=1748 errors=0 current=tests/lib/__init__.py
+[2026-11-25T12:26:23Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=76 new_files_this_iter=15 mem_mb=1464 MB
+[2026-11-25T12:26:23Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/05293b6b55eca86490b7c2944bcc558a56064f0d.nq.gz triples=127909
+[2026-11-25T12:26:25Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-25T12:26:25Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=76
