@@ -1,0 +1,30 @@
+[2026-11-25T01:06:46Z] === ENRICH ITERATION 5 START | repo=pypa/pip sha=f47b5874 ===
+[2026-11-25T01:06:46Z] [iter=5] PHASE START: enrich repo=pypa/pip sha=f47b5874 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f47b5874-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f47b5874299848c688336ae7c8d69534013fe2c6.nq.gz
+[2026-11-25T01:06:46Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T01:08:05Z] [iter=5] AST store loaded triples=6896569 load_secs=77 mem_mb=896 MB
+[2026-11-25T01:08:05Z] [iter=5] Step 2: Finding LSP targets mem_mb=896 MB
+[2026-11-25T01:08:13Z] [iter=5] LSP targets found call_sites=33532 imports=4008 extends=749 implements=0 secs=8
+[2026-11-25T01:08:16Z] [iter=5] Loaded checkpoint partial graph triples=94338
+[2026-11-25T01:08:16Z] [iter=5] Primed enclosing-def cache from persisted triples entries=1135
+[2026-11-25T01:08:23Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=896 MB
+[2026-11-25T01:08:48Z] [iter=5] Position index built positions=479893 nodes_with_types=624706 secs=25 mem_mb=1414 MB
+[2026-11-25T01:08:48Z] [iter=5] Step 3: Starting LSP resolution mem_mb=1414 MB already_completed_types=[] already_completed_files=60
+[2026-11-25T01:08:48Z] [iter=5] Resolving target type target_type=call_site count=33532
+[2026-11-25T01:08:49Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=0 resolved=0 errors=0 current=tests/functional/test_install.py
+[2026-11-25T01:10:13Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=1 resolved=115 errors=0 current=tests/lib/__init__.py
+[2026-11-25T01:11:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=2 resolved=389 errors=0 current=tests/data/packages/BrokenEmitsUTF8/setup.py
+[2026-11-25T01:13:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=4 resolved=484 errors=0 current=tests/functional/test_freeze.py
+[2026-11-25T01:16:48Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=5 resolved=741 errors=0 current=src/pip/_vendor/typing_extensions.py
+[2026-11-25T01:19:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=6 resolved=1293 errors=0 current=src/pip/__main__.py
+[2026-11-25T01:23:11Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=8 resolved=1555 errors=0 current=tests/unit/test_configuration.py
+[2026-11-25T01:23:42Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=9 resolved=1586 errors=0 current=tests/unit/test_models_wheel.py
+[2026-11-25T01:25:49Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=19.0 files_done=11 resolved=1712 errors=0 current=src/pip/_vendor/requests/structures.py
+[2026-11-25T01:27:06Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=20.3 files_done=13 resolved=1826 errors=0 current=src/pip/_vendor/pygments/lexers/python.py
+[2026-11-25T01:31:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=25.0 files_done=14 resolved=2030 errors=0 current=src/pip/_vendor/rich/traceback.py
+[2026-11-25T01:33:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=15 resolved=2172 errors=0 current=src/pip/_internal/__init__.py
+[2026-11-25T01:36:05Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=17 resolved=2281 errors=0 current=tests/functional/test_install_report.py
+[2026-11-25T01:36:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=18 resolved=2369 errors=0 current=tests/unit/test_vcs.py
+[2026-11-25T01:36:48Z] [iter=5] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=78 new_files_this_iter=18 mem_mb=1435 MB
+[2026-11-25T01:36:48Z] [iter=5] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f47b5874299848c688336ae7c8d69534013fe2c6.nq.gz triples=116185
+[2026-11-25T01:36:49Z] [iter=5] Checkpoint written, exiting with code 7
+[2026-11-25T01:36:49Z] [iter=5] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=78
