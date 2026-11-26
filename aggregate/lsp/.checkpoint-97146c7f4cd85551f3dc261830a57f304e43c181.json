@@ -1,20 +1,31 @@
 {
   "commit_sha": "97146c7f4cd85551f3dc261830a57f304e43c181",
   "completed_files": [
+    "src/pip/_internal/cli/base_command.py",
+    "src/pip/_internal/index/package_finder.py",
+    "src/pip/_internal/metadata/base.py",
     "src/pip/_internal/models/link.py",
     "src/pip/_internal/req/req_uninstall.py",
     "src/pip/_internal/utils/misc.py",
+    "src/pip/_vendor/distlib/compat.py",
     "src/pip/_vendor/distlib/resources.py",
     "src/pip/_vendor/distlib/util.py",
     "src/pip/_vendor/distlib/wheel.py",
+    "src/pip/_vendor/distro/distro.py",
+    "src/pip/_vendor/msgpack/fallback.py",
     "src/pip/_vendor/requests/utils.py",
+    "src/pip/_vendor/rich/prompt.py",
     "src/pip/_vendor/tomli/_parser.py",
+    "src/pip/_vendor/urllib3/connection.py",
     "src/pip/_vendor/urllib3/packages/six.py",
     "tests/functional/test_check.py",
+    "tests/functional/test_download.py",
     "tests/functional/test_install_direct_url.py",
+    "tests/functional/test_install_reqs.py",
     "tests/functional/test_install_wheel.py",
     "tests/unit/test_command_install.py",
     "tests/unit/test_req.py",
+    "tests/unit/test_vcs.py",
     "tests/unit/test_wheel.py"
   ],
   "completed_types": [],
@@ -23,7 +34,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/97146c7f4cd85551f3dc261830a57f304e43c181.nq.gz",
     "call_sites": 33225,
     "import_statements": 3980,
-    "call_targets_resolved": 2822,
+    "call_targets_resolved": 4519,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -37,5 +48,5 @@
     "extends_class_denormalized": 741,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1804
+  "elapsed_seconds": 1803
 }
