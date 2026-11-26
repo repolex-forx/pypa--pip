@@ -5,7 +5,9 @@
     "src/pip/_internal/cli/spinners.py",
     "src/pip/_internal/index/sources.py",
     "src/pip/_internal/models/direct_url.py",
+    "src/pip/_internal/operations/check.py",
     "src/pip/_internal/operations/install/wheel.py",
+    "src/pip/_internal/req/req_uninstall.py",
     "src/pip/_internal/utils/wheel.py",
     "src/pip/_vendor/distlib/index.py",
     "src/pip/_vendor/distlib/metadata.py",
@@ -19,16 +21,21 @@
     "src/pip/_vendor/pygments/formatters/html.py",
     "src/pip/_vendor/pygments/formatters/terminal.py",
     "src/pip/_vendor/resolvelib/resolvers.py",
+    "src/pip/_vendor/rich/console.py",
     "src/pip/_vendor/rich/file_proxy.py",
     "src/pip/_vendor/rich/progress.py",
+    "src/pip/_vendor/rich/table.py",
     "src/pip/_vendor/rich/terminal_theme.py",
+    "src/pip/_vendor/rich/text.py",
     "src/pip/_vendor/urllib3/packages/six.py",
     "src/pip/_vendor/urllib3/util/ssl_.py",
+    "tests/functional/test_download.py",
     "tests/functional/test_install.py",
     "tests/functional/test_new_resolver_user.py",
     "tests/functional/test_uninstall_user.py",
     "tests/lib/server.py",
     "tests/unit/test_configuration.py",
+    "tests/unit/test_models_wheel.py",
     "tests/unit/test_req_uninstall.py",
     "tests/unit/test_utils_unpacking.py",
     "tests/unit/test_wheel_builder.py"
@@ -39,7 +46,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/76e82a43f8fb04695e834810df64f2d9a2ff6020.nq.gz",
     "call_sites": 33223,
     "import_statements": 4001,
-    "call_targets_resolved": 4899,
+    "call_targets_resolved": 6300,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -53,5 +60,5 @@
     "extends_class_denormalized": 774,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1803
+  "elapsed_seconds": 1808
 }
